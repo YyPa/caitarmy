@@ -5,7 +5,7 @@ let user = message.author.username;
 let guild = message.guild.name;
 let channel = bot.channels.get("483997295726297089")
 let embed = new Discord.RichEmbed()
-.setTitle("Hata Buldum")
+.setTitle("Hata Bulundu")
 .setThumbnail("https://images-ext-1.discordapp.net/external/nQoe_5zRdR6A5gsh2fevRbNvhoc5A2YIWP7zVdN5_NE/%3Fv%3D1/https/cdn.discordapp.com/emojis/435908220100280320.png?width=80&height=80")
 .addField("Hata", bug)
 .addField("Bulan", user)
