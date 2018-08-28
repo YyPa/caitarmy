@@ -24,6 +24,6 @@ exports.conf = {
 
 exports.help = {
   name: 'hatabildir',
-  description: 'BOMBA',
+  description: 'Bulduğunuz Hataları Bildirirsiniz',
   usage: 'hatabildir'
 };
