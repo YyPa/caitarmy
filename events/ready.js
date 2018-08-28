@@ -21,7 +21,7 @@ console.log(`${client.guilds.size} Sunucuyu + ${client.users.size} Kullanıcıy�
 
         "Bize Destek Olmak İçin İninal Barkodumuza Bağış Yapabilirsiniz. Daha Fazla Bilgi İçin; c!bağış",
 		
-        "🔥 Bot News 🔥 c!sigara ve c!bugbuldum Yeni Gelen Komutlarımızdır ",
+        "🔥 Bot News 🔥 c!sigara, c!tavsiye ve c!bugbuldum Yeni Gelen Komutlarımızdır ",
 		
 		"Botumuz Hakkında Bilgi İçin c!bilgi Botun Davet Linki İçin c!davet Yazınız",
 		
