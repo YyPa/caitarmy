@@ -109,24 +109,6 @@ client.on('guildMemberRemove', member => {
 });
 
 client.on("message", message => {
-    const kufur = ["amk", "aq", "yarrak", "sik", "amcık", "oç", "amına", "sikim", "piç", "AMK", "Amk", "Aq", "Yarrak", "Sik", "Oç", "Amcık", "Amına", "endermk", "A-Q", "a-q", "AQ", "yarram", "Yarram" ];
-    if (kufur.some(word => message.content.includes(word)) ) {
-        message.reply("**Küfür Etme!** :rage:")
-        message.delete()
-    }
-
-});
-
-client.on("message", message => {
-    const argo = ["ağla", "kudur", "çıldır", "bıcılık", "anan", "baban", "teyzen", "ninen", "babannen", "it", "zırla", "Zırla", "Ağla", "Kudur", "Çıldır", "Bıcılık", "Anan", "Baban", "Teyzen", "Ninen", "Babannen", "İt", "İT", "aptal", "Aptal", "annene", "Annene", "Kaşar", "kaşar", "KAşar"];
-    if (argo.some(word => message.content.includes(word)) ) {
-        message.reply("**Kışkırtıcı Söz Söyleme Üzme Milleti Yazık :)**")
-        message.delete()
-    }
-
-});
-
-client.on("message", message => {
     const lınk = ["discord.gg", "discord.com", "discord.me", "discordapp.com", "discord.io", "discord.tk"];
     if (lınk.some(word => message.content.includes(word)) ) {
         message.reply("**Bu Linki Senden Ve Benden Başka Hiç Kimse Görmedi Sen Atmaya Devam Ettikçe Bende Silmeye Devam Ediceğim (Link Atmak Yasak)**")
